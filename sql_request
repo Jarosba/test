@@ -1,0 +1,5 @@
+SELECT department
+FROM employees
+WHERE position = 'software_developer'
+GROUP by department
+HAVING count(*) < 5;
